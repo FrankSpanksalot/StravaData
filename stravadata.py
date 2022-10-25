@@ -29,11 +29,11 @@ session.fetch_token(
 
 response = session.get("https://www.strava.com/api/v3/athlete")
 
-print("\n")
+""" print("\n")
 print(f"resonse status {response.status_code}")
 print(f"resonse reason {response.reason}")
 print(f"resonse elasped {response.elapsed}")
-print("\n")
+print("\n") """
 #print(f"resonse text {response.text}")
 
 data = json.loads(response.text)
