@@ -37,4 +37,10 @@ print("\n") """
 #print(f"resonse text {response.text}")
 
 data = json.loads(response.text)
-pprint.pprint(data)
+#pprint.pprint(data)
+
+bikes = data["bikes"]
+
+print(len(bikes))
+for bike in bikes:
+    print(f" Bike Name : {bike['name']} , id {bike['id']}, miles = {bike['distance']/1609}")
