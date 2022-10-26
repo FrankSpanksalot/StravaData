@@ -6,16 +6,18 @@ import pprint
 load_dotenv()
 client_id= os.getenv('CLIENT_ID')
 client_secret =os.getenv('CLIENT_SECRET')
-redirect_url = "https://localhost/"
+redirect_url = "http://localhost"
 
 session = OAuth2Session(client_id=client_id, redirect_uri=redirect_url)
 
 auth_base_url = "https://www.strava.com/oauth/authorize"
-session.scope =["profile:read_all"]
+session.scope =["activity:read_all","profile:read_all"]
 auth_link = session.authorization_url(auth_base_url)
 
-
+print(auth_link)
+print("\n")
 print(f"click here {auth_link[0]}")
+
 redirect_response = input("Paste url here ")
 
 token_url = "https://www.strava.com/api/v3/oauth/token"
@@ -27,20 +29,27 @@ session.fetch_token(
     include_client_id=True
 )
 
-response = session.get("https://www.strava.com/api/v3/athlete")
+print(f"\n token :  {session.token}")
 
-""" print("\n")
-print(f"resonse status {response.status_code}")
-print(f"resonse reason {response.reason}")
-print(f"resonse elasped {response.elapsed}")
-print("\n") """
-#print(f"resonse text {response.text}")
+athlete = session.get("https://www.strava.com/api/v3/athlete")
 
-data = json.loads(response.text)
+data = json.loads(athlete.text)
 #pprint.pprint(data)
 
 bikes = data["bikes"]
 
-print(len(bikes))
+print("\n")
 for bike in bikes:
     print(f" Bike Name : {bike['name']} , id {bike['id']}, miles = {bike['distance']/1609}")
+
+activities_url = "https://www.strava.com/api/v3/athlete/activities"
+""" header = {'Authorization': 'Bearer '+ session.token['access_token'] }
+param = {'per_page': 200, 'page':1} """
+url = f"{activities_url}?access_token={session.token['access_token']}&per_page=2"
+print(f"\n {url}")
+activities = session.get(url).json()
+
+#trying long form
+
+
+print(activities)
