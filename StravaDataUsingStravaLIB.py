@@ -55,8 +55,9 @@ else:
     if os.path.getsize(fn)!=0:
         d = pd.read_csv(fn)
         lastDate = d.sort_values(by='start_date').iloc[-1]['start_date']
+    
         date_format = '%Y-%m-%dT%H:%M:%S%z'
-        after_date = (datetime.strptime(lastDate, date_format)) # +timedelta(days=1)) #.strftime('%Y-%m-%d')
+        after_date = (datetime.strptime(lastDate, date_format)) #+timedelta(hours=-6) # +timedelta(days=1)) #.strftime('%Y-%m-%d')
         gear=[]
         with open('gear.csv', 'w',newline='', encoding='utf-8') as f:
             writer = csv.writer(f)
@@ -65,7 +66,7 @@ else:
                 sGear = client.get_gear(gear_id=g)
                 writer.writerow([sGear.to_dict().get(x) for x in gear_cols])
 
-
+exit
 print(f'After date {after_date} and before date {before_date}')
 #after_date = (datetime.now() + timedelta(days=-32)) #.strftime('%Y-%m-%d')
 #before_date = (datetime.now() + timedelta(days=-30)).strftime('%Y-%m-%d')
