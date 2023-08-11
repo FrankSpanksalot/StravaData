@@ -45,7 +45,7 @@ my_cols =['id','name', 'distance','moving_time','type',
 
 data =[]
 fn = "demo1.csv"
-before_date = (datetime.now()+timedelta(days=1)).strftime('%Y-%m-%d')
+before_date = (datetime.now()+timedelta(days=2)).strftime('%Y-%m-%d')
 if not os.path.isfile(fn):
     with open(fn,'a',encoding='utf-8'):
         print("File Created")
@@ -57,7 +57,7 @@ else:
         lastDate = d.sort_values(by='start_date').iloc[-1]['start_date']
     
         date_format = '%Y-%m-%dT%H:%M:%S%z'
-        after_date = (datetime.strptime(lastDate, date_format)) #+timedelta(hours=-6) # +timedelta(days=1)) #.strftime('%Y-%m-%d')
+        after_date = (datetime.strptime(lastDate, date_format)) #+timedelta(hours=-4) # +timedelta(days=1)) #.strftime('%Y-%m-%d')
         gear=[]
         with open('gear.csv', 'w',newline='', encoding='utf-8') as f:
             writer = csv.writer(f)
