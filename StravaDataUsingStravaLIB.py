@@ -11,25 +11,26 @@ client = Client()
 with open('access_token.pickle', 'rb') as f:
     access_token = pickle.load(f)
     
-print('Latest access token read from file:')
+#print('Latest access token read from file:')
 access_token
 
 if time.time() > access_token['expires_at']:
-    print('Token has expired, will refresh')
+   
+   # print('Token has expired, will refresh')
     refresh_response = client.refresh_access_token(client_id=client_id, 
                                                client_secret=client_secret, 
                                                refresh_token=access_token['refresh_token'])
     access_token = refresh_response
     with open('access_token.pickle', 'wb') as f:
         pickle.dump(refresh_response, f)
-    print('Refreshed token saved to file')
+    #print('Refreshed token saved to file')
     client.access_token = refresh_response['access_token']
     client.refresh_token = refresh_response['refresh_token']
     client.token_expires_at = refresh_response['expires_at']
         
 else:
-    print('Token still valid, expires at {}'
-          .format(time.strftime("%a, %d %b %Y %H:%M:%S %Z", time.localtime(access_token['expires_at']))))
+ #   print('Token still valid, expires at {}'
+  #        .format(time.strftime("%a, %d %b %Y %H:%M:%S %Z", time.localtime(access_token['expires_at']))))
     client.access_token = access_token['access_token']
     client.refresh_token = access_token['refresh_token']
     client.token_expires_at = access_token['expires_at']
@@ -100,7 +101,6 @@ with open(fn, 'a',newline='', encoding='utf-8') as f:
     writer.writerows(data)
 
 #print((datetime.now() + timedelta(days=10)).strftime('%Y-%m-%d'))
-
 #after_date = datetime.strptime('2021-01-01','%Y-%m-%d')
 #before_date = datetime.strptime('2023-12-31', '%Y-%m-%d') 
 
