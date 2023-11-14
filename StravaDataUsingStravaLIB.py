@@ -13,7 +13,7 @@ with open('access_token.pickle', 'rb') as f:
     
 #print('Latest access token read from file:')
 access_token
-
+os.system("cls")
 if time.time() > access_token['expires_at']:
    
    # print('Token has expired, will refresh')
