@@ -73,14 +73,6 @@ print(f'After date {after_date} and before date {before_date}')
 #before_date = (datetime.now() + timedelta(days=-30)).strftime('%Y-%m-%d')
 
 activities = client.get_activities(after=after_date, before=before_date)
-
-""" for activity in activities:
-        activity.name = activity.name.replace("\n","")
-        my_dict = activity.to_dict()
-        print(my_dict)
-        data.append([my_dict.get(x) for x in my_cols])
-        print(data)
- """
 numberofActivities = len(list(activities))
 
 if numberofActivities==0:
@@ -94,7 +86,7 @@ with open(fn, 'a',newline='', encoding='utf-8') as f:
     if os.path.getsize(fn)==0:
         writer.writerow(my_cols)
         print("wrote header")
-    for activity in activities:
+    for activity in reversed(list(activities)):
         activity.name = activity.name.replace("\n","")
         my_dict = activity.to_dict()
         data.append([my_dict.get(x) for x in my_cols])
