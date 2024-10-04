@@ -35,17 +35,20 @@ else:
     client.refresh_token = access_token['refresh_token']
     client.token_expires_at = access_token['expires_at']
 
-#athlete = client.get_athlete()
-
+athlete = client.get_athlete()
+aStat = athlete.stats
+print(aStat(all_ride_totals))
+print(f"{athlete.weight}, {athlete.ftp}, {athlete.stats}")
+exit()
 cnt =0
 miles = 0.0
 gear_cols = ['id','name','brand_name','model_name']
 my_cols =['id','name', 'distance','moving_time','type',
           'average_speed','start_date','total_elevation_gain','gear_id',
-          'average_heartrate','elapsed_time','kilojoules','calories','average_cadence']
+          'average_heartrate','elapsed_time','kilojoules','calories','average_cadence','average_watts','weighted_average_watts']
 
 data =[]
-fn = "demo1.csv"
+fn = "demo2.csv"
 before_date = (datetime.now()+timedelta(days=2)).strftime('%Y-%m-%d')
 if not os.path.isfile(fn):
     with open(fn,'a',encoding='utf-8'):
