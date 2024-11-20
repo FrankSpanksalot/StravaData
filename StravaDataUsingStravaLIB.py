@@ -37,9 +37,9 @@ else:
 
 athlete = client.get_athlete()
 aStat = athlete.stats
-print(aStat(all_ride_totals))
+""" print(aStat(all_ride_totals))
 print(f"{athlete.weight}, {athlete.ftp}, {athlete.stats}")
-exit()
+exit() """
 cnt =0
 miles = 0.0
 gear_cols = ['id','name','brand_name','model_name']
