@@ -35,8 +35,8 @@ else:
     client.refresh_token = access_token['refresh_token']
     client.token_expires_at = access_token['expires_at']
 
-athlete = client.get_athlete()
-aStat = athlete.stats
+#athlete = client.get_athlete()
+# aStat = athlete.stats
 """ print(aStat(all_ride_totals))
 print(f"{athlete.weight}, {athlete.ftp}, {athlete.stats}")
 exit() """
