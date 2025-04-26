@@ -39,7 +39,7 @@ else:
 cnt =0
 miles = 0.0
 gear_cols = ['id','name','brand_name','model_name']
-my_cols =['id','name', 'distance','moving_time','type', 'sport_type','workout_type','elapsed_time'] #,
+my_cols =['id','name', 'start_date','distance','moving_time','type', 'sport_type','workout_type','elapsed_time'] #,
  #         'average_speed','start_date','total_elevation_gain','gear_id',
   #        'average_heartrate','elapsed_time','kilojoules','calories','average_cadence','average_watts','weighted_average_watts']
 

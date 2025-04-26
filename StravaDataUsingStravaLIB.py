@@ -52,6 +52,7 @@ fn = "demo2.csv"
 before_date = (datetime.now()+timedelta(days=2)).strftime('%Y-%m-%d')
 if not os.path.isfile(fn):
     with open(fn,'a',encoding='utf-8'):
+        
         print("File Created")
     after_date = datetime.strptime('2009-01-01 00:00:00', '%Y-%m-%d %H:%M:%S')
    
@@ -59,8 +60,8 @@ else:
     if os.path.getsize(fn)!=0:
         d = pd.read_csv(fn)
         lastDate = d.sort_values(by='start_date').iloc[-1]['start_date']
-    
-        date_format = '%Y-%m-%dT%H:%M:%S%z'
+       # print(lastDate)
+        date_format = '%Y-%m-%d %H:%M:%S%z'
         after_date = (datetime.strptime(lastDate, date_format)) #+timedelta(hours=-4) # +timedelta(days=1)) #.strftime('%Y-%m-%d')
         gear=[]
         with open('gear.csv', 'w',newline='', encoding='utf-8') as f:
