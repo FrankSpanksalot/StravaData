@@ -2868,3 +2868,35 @@ id,name,distance,moving_time,type,average_speed,start_date,total_elevation_gain,
 14727288104,Afternoon Ride,6475.0,985.0,Ride,6.574,2025-06-07 18:55:30+00:00,33.0,b15051171,125.3,1020.0,140.1,,67.7,143.1,149,Ride
 14739230643,"Lunch Ride, explore. Just go straight!",165072.0,19514.0,Ride,8.459,2025-06-08 16:46:25+00:00,405.0,b15051171,128.6,23427.0,3428.1,,72.1,175.9,195,Ride
 14739337270,Evening Ride,6502.7,922.0,Ride,7.053,2025-06-08 23:24:25+00:00,32.0,b15051171,117.2,922.0,125.5,,66.8,137.0,144,Ride
+14761453017,Zwift - Sacre Bleu in France,72498.4,8723.0,VirtualRide,8.311,2025-06-10 23:52:29+00:00,404.0,b8821498,124.0,8885.0,1532.6,,76.0,175.7,187,VirtualRide
+14772084364,Afternoon Ride what do call a deer with no eyes? No ideaWhat do you call a deer with no eyes and no dick?  No f'ing idea!,78843.9,9686.0,Ride,8.14,2025-06-11 21:54:09+00:00,104.0,b15051171,142.4,10221.0,1652.3,,71.2,171.2,184,Ride
+14772087302,Evening Ride,6451.0,939.0,Ride,6.87,2025-06-12 00:57:47+00:00,21.0,b15051171,121.6,939.0,115.2,,63.0,122.9,131,Ride
+14780736319,Afternoon Gravel Ride,48481.8,6349.0,Ride,7.636,2025-06-12 18:44:34+00:00,78.0,b15721392,136.2,6386.0,1258.2,,67.7,197.9,205,GravelRide
+14791407335,"Afternoon Gravel Ride, got lost twice exploring. In Garmin so nice it told me 72 hours recovery so I scheduled 100 mi ride for tomorrow",89290.2,13103.0,Ride,6.814,2025-06-13 20:12:20+00:00,179.0,b15721392,135.8,15829.0,2621.5,,66.4,199.8,202,GravelRide
+14800876680,"Morning Gravel Ride, I'm creating a new gravel category, called boomer gravel.  It's uphill both ways",159926.0,26985.0,Ride,5.926,2025-06-14 14:00:48+00:00,1594.0,b15721392,126.2,28784.0,4681.0,,64.1,172.4,195,GravelRide
+14822184366,"Afternoon Ride, fun in da' sun",41609.1,5169.0,Ride,8.05,2025-06-16 21:56:57+00:00,64.0,b15051171,115.5,5474.0,896.1,,70.0,173.6,196,Ride
+14853156588,Lunch Walk,9044.0,6239.0,Walk,1.45,2025-06-19 17:22:02+00:00,81.0,g3714779,98.5,6536.0,,,54.8,,,Walk
+14895072959,"Afternoon Gravel Ride, forgot water bottle! Hottest Midland temp I ever seen",25717.6,3537.0,Ride,7.271,2025-06-23 21:34:46+00:00,60.0,b15721392,151.0,3804.0,629.7,,67.6,178.5,187,GravelRide
+14916733008,Afternoon Gravel Ride,43978.2,6670.0,Ride,6.593,2025-06-25 20:51:50+00:00,75.0,b15721392,131.1,7426.0,1124.9,,66.7,168.0,189,GravelRide
+14924810287,Afternoon Gravel Ride,0.0,147.0,Ride,0.0,2025-06-26 17:04:37+00:00,0.0,b15721392,107.4,147.0,24.9,,59.4,167.6,151,GravelRide
+14924797005,Afternoon Ride,727.1,106.0,Ride,6.859,2025-06-26 17:07:47+00:00,2.0,b15051171,122.1,106.0,21.7,,70.6,203.0,175,Ride
+14924810325,"Afternoon Gravel Ride, wait for car to get oil changed",33956.8,4707.0,Ride,7.214,2025-06-26 17:09:31+00:00,49.0,b15721392,143.6,4707.0,993.1,,71.8,210.7,218,GravelRide
+14947685334,"2025 coast to coast Michigan gravel grinder rear tire in lake Huron , front wheel in lake michigan and FASTEST FATass PERSON TODAY",329845.0,49316.0,Ride,6.688,2025-06-28 09:26:22+00:00,1933.0,b15721392,140.7,54438.0,9394.4,,67.1,190.4,201,GravelRide
+14964059782,"Lunch ""Swim"", pool finally opened! Backstroke flags, running clocks!  Mostly chatted with everyone!",1100.0,1531.0,Swim,0.718,2025-06-30 15:44:53+00:00,0.0,,83.3,3588.0,,,,,,Swim
+14978086422,Afternoon Ride,25496.2,3152.0,Ride,8.089,2025-07-01 21:36:05+00:00,39.0,b15051171,118.3,3247.0,529.6,,69.2,168.1,213,Ride
+14978086344,Evening Ride,7480.3,1065.0,Ride,7.024,2025-07-01 22:30:36+00:00,12.0,b15051171,106.6,1160.0,101.6,,67.9,95.3,115,Ride
+14978328403,Evening Ride,12645.8,1835.0,Ride,6.891,2025-07-01 22:52:41+00:00,29.0,b15051171,103.3,1835.0,186.5,,64.6,101.7,116,Ride
+14989481716,Evening Ride in the rain.   Wow disk brakes actually still work  when we!  Not used to stopping,45319.2,5544.0,Ride,8.174,2025-07-02 23:07:35+00:00,305.0,b15051171,121.8,5610.0,924.2,,71.8,167.1,196,Ride
+14992833848,Morning Ride,7603.8,1077.0,Ride,7.06,2025-07-03 10:30:51+00:00,15.0,b15051171,88.7,1077.0,115.0,,61.2,108.5,121,Ride
+14996297922,"Morning Ride, who needs to go to meetings when you can ride with the boys",134112.0,16666.0,Ride,8.047,2025-07-03 11:40:35+00:00,255.0,b15051171,131.7,19277.0,2634.1,,70.4,158.2,167,Ride
+14996476345,Afternoon Ride,6972.8,981.0,Ride,7.108,2025-07-03 17:02:21+00:00,31.0,b15051171,134.7,1041.0,137.9,,65.1,141.5,150,Ride
+15016965746,"Lunch Swim, still feels awful",2300.0,2380.0,Swim,0.966,2025-07-05 15:45:20+00:00,0.0,,113.5,3561.0,,,,,,Swim
+15036682745,Lunch reach And pull,2450.0,2532.0,Swim,0.968,2025-07-07 15:46:24+00:00,0.0,,101.1,3529.0,,,,,,Swim
+15040369593,"Afternoon Ride, with a squeaky BB!",63356.3,7921.0,Ride,7.999,2025-07-07 21:13:19+00:00,93.0,b15051171,122.1,9410.0,1252.7,,72.6,158.5,183,Ride
+15047739461,Lunch Swim,2700.0,2690.0,Swim,1.004,2025-07-08 15:42:48+00:00,0.0,,101.0,3574.0,,,,,,Swim
+15052053756,"Evening Ride, Tammi got a  wax and a 2200 mile good deep clean and now is quiet again",40269.8,4738.0,Ride,8.499,2025-07-08 22:15:33+00:00,77.0,b15051171,134.5,4774.0,875.8,,74.5,184.9,206,Ride
+15074006238,Afternoon Ride with the perfect pace partner,75080.1,9071.0,Ride,8.277,2025-07-10 20:57:08+00:00,111.0,b15051171,135.9,10548.0,1497.4,,71.7,165.2,181,Ride
+15080884143,Lunch Swimming in the Rain.  All my equipment got wet!!!I was  late and it rained...,1800.0,1761.0,Swim,1.022,2025-07-11 15:54:45+00:00,0.0,,114.0,2809.0,,,,,,Swim
+15083922902,"she rides again!!! good for another 40000miles.  sensah srx pro 1x 11 groupset, senixc 170 44t cranks,  sunshine-sz 11-46 cassette. Stem,handlebars,frame only thing original from 2008",59858.2,7465.0,Ride,8.019,2025-07-11 21:55:05+00:00,88.0,b1683032,130.4,9209.0,1449.6,,71.5,193.3,207,Ride
+15091737924,"Lunch Swim, free back free back free back",1950.0,2083.0,Swim,0.936,2025-07-12 15:46:19+00:00,0.0,,99.0,3334.0,,,,,,Swim
+15094555680,"Afternoon Ride, does that sign mean no Clydesdales on the rail trail? I like being the fastest fat ass out here",103954.0,12319.0,Ride,8.439,2025-07-12 20:22:05+00:00,173.0,b15051171,141.0,13171.0,2150.3,,73.7,174.8,184,Ride
