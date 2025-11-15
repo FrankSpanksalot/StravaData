@@ -16,7 +16,7 @@ access_token
 os.system("cls")
 if time.time() > access_token['expires_at']:
    
-   # print('Token has expired, will refresh')
+   # print('Token has expired, will refresh')   
     refresh_response = client.refresh_access_token(client_id=client_id, 
                                                client_secret=client_secret, 
                                                refresh_token=access_token['refresh_token'])
