@@ -3081,3 +3081,43 @@ id,name,distance,moving_time,type,average_speed,start_date,total_elevation_gain,
 16430894864,Zwift - Scotland,19341.9,2454.0,VirtualRide,7.882,2025-11-12 00:19:23+00:00,209.0,b8821498,115.0,2454.0,394.9,,76.3,160.9,188,VirtualRide
 16431194692,Zwift - Hilltop Hustle in Watopia,16142.1,3088.0,VirtualRide,5.227,2025-11-12 01:02:45+00:00,349.0,b8821498,119.2,3088.0,513.5,,71.0,166.3,189,VirtualRide
 16468425315,Zwift - Electric Break in Makuri Islands,27409.2,3782.0,VirtualRide,7.247,2025-11-15 18:21:21+00:00,322.0,b8821498,64.5,3782.0,631.4,,73.3,166.9,186,VirtualRide
+16519904418,Zwift - Greater London Loop in London,7576.8,940.0,VirtualRide,8.06,2025-11-20 23:55:24+00:00,66.0,b8821498,101.4,1014.0,156.6,,70.4,166.6,174,VirtualRide
+16520095689,Zwift - Race: Brompton World Champs || Range 2 (D) on Greater London Flat in London,18083.7,1978.0,VirtualRide,9.142,2025-11-21 00:13:17+00:00,103.0,b8821498,142.6,1978.0,453.4,,80.0,229.2,236,VirtualRide
+16528503395,Zwift - Green to Screen in New York,29100.6,3357.0,VirtualRide,8.669,2025-11-21 23:04:07+00:00,213.0,b8821498,135.5,3357.0,649.5,,77.5,193.5,207,VirtualRide
+16533170943,Zwift - Flat Route in Watopia,9321.7,1184.0,VirtualRide,7.873,2025-11-22 12:39:39+00:00,52.0,b8821498,99.1,1184.0,146.2,,70.2,123.5,137,VirtualRide
+16533576070,Zwift - Group Ride: WINTER IS COMING STAGE 1: p/b DIRTy Mitten Racing League (D) on Queen's Highway After Party in Yorkshire,19908.4,2321.0,VirtualRide,8.578,2025-11-22 13:01:09+00:00,301.0,b8821498,164.8,2352.0,531.3,,86.5,228.9,233,VirtualRide
+16535656101,"Morning Gravel Ride, from 83 to 38 in two days! Thanks Chris for putting up with me for 10 miles",38262.1,5189.0,Ride,7.374,2025-11-22 15:30:49+00:00,85.0,b15721392,156.1,5189.0,1035.9,,72.0,199.5,210,GravelRide
+16546038604,"Morning bay city roads are  Gravel roads.  Fun ride for good cause, and hotdogs",20282.1,3694.0,Ride,5.491,2025-11-23 15:02:14+00:00,89.0,b15721392,110.8,4444.0,444.9,,59.5,120.5,137,GravelRide
+16547280283,Tammi got a ride in!,40383.7,5117.0,Ride,7.892,2025-11-23 19:04:09+00:00,71.0,b15051171,135.4,5205.0,877.7,,71.1,172.2,182,Ride
+16557657656,Zwift - Watts the Limit in New York,30800.6,3576.0,VirtualRide,8.613,2025-11-24 23:54:04+00:00,205.0,b8821498,128.5,3576.0,625.6,,73.6,174.9,198,VirtualRide
+16566100838,Afternoon Weight Training,0.0,1725.0,WeightTraining,0.0,2025-11-25 20:28:58+00:00,0.0,,99.4,1725.0,,,,,,WeightTraining
+16566234220,Afternoon Run,1354.3,994.0,Run,1.362,2025-11-25 20:58:27+00:00,0.0,g3714779,119.3,994.0,180.9,,65.8,182.0,220,Run
+16568017568,Zwift - Spinfinity Ultra in New York,35454.0,4710.0,VirtualRide,7.527,2025-11-26 00:10:23+00:00,290.0,b8821498,114.1,4730.0,685.7,,73.1,145.6,164,VirtualRide
+16586089943,Zwift - Tempus Fugit in Watopia,21017.0,2318.0,VirtualRide,9.067,2025-11-27 20:03:57+00:00,32.0,b8821498,126.2,2318.0,376.4,,70.5,162.4,179,VirtualRide
+16586153508,Zwift - Avon Flyer in New York,3663.2,448.0,VirtualRide,8.177,2025-11-27 20:43:43+00:00,24.0,b8821498,133.3,448.0,75.5,,73.7,168.6,196,VirtualRide
+16614280774,Zwift - Double Span Spin in New York,8393.1,1082.0,VirtualRide,7.757,2025-11-30 21:50:08+00:00,81.0,b8821498,107.1,1082.0,168.7,,70.6,155.9,186,VirtualRide
+16614525045,Zwift - Flat Out Fast in Watopia,22692.1,2594.0,VirtualRide,8.748,2025-11-30 22:11:19+00:00,48.0,b8821498,125.2,2594.0,460.3,,75.7,177.5,182,VirtualRide
+16614660680,If you add them all up you get 25 miles for my oldest,10417.2,1464.0,VirtualRide,7.116,2025-11-30 22:55:10+00:00,54.0,b8821498,116.7,1549.0,197.7,,72.0,135.0,159,VirtualRide
+16614742839,Zwift - Times Square Circuit in New York,4874.7,806.0,VirtualRide,6.048,2025-11-30 23:24:54+00:00,36.0,b8821498,104.3,889.0,91.5,,66.2,113.5,136,VirtualRide
+16614809635,Zwift - Prospect Park Loop in New York,6605.3,895.0,VirtualRide,7.38,2025-11-30 23:40:13+00:00,44.0,b8821498,109.8,895.0,120.8,,71.0,135.0,153,VirtualRide
+16633931449,Zwift - Double Parked in New York,43632.5,5522.0,VirtualRide,7.902,2025-12-02 22:38:06+00:00,343.0,b8821498,130.2,5702.0,898.1,,72.4,162.6,186,VirtualRide
+16643404500,Zwift - Issendorf Express in New York,8298.5,1041.0,VirtualRide,7.972,2025-12-03 23:06:47+00:00,59.0,b8821498,119.2,1041.0,173.1,,72.1,166.3,188,VirtualRide
+16643792207,Zwift - Climb Control in Watopia,24313.3,3364.0,VirtualRide,7.227,2025-12-03 23:25:44+00:00,190.0,b8821498,142.0,3364.0,614.4,,77.1,182.7,208,VirtualRide
+16653120882,"Zwift - Figure 8 in Watopia, it looks like a figure eight from a 18-month-old",30678.1,3685.0,VirtualRide,8.325,2025-12-05 00:02:01+00:00,257.0,b8821498,143.6,3685.0,695.2,,77.8,188.7,216,VirtualRide
+16653319787,Zwift - Climb Portal: Cheddar Gorge at 100% Elevation in France,12932.4,2068.0,VirtualRide,6.254,2025-12-05 01:07:07+00:00,185.0,b8821498,140.4,2068.0,327.6,,78.3,158.4,202,VirtualRide
+16660583602,Zwift - Bon Voyage in France,32319.1,3708.0,VirtualRide,8.716,2025-12-05 21:40:26+00:00,158.0,b8821498,154.8,3708.0,703.9,,80.8,189.8,206,VirtualRide
+16660763102,Zwift - Volcano Circuit in Watopia,9823.5,1365.0,VirtualRide,7.197,2025-12-05 22:47:08+00:00,48.0,b8821498,132.4,1365.0,161.8,,71.3,118.5,134,VirtualRide
+16669629101,Zwift - Fuhgeddaboudit in New York,79546.3,10715.0,VirtualRide,7.424,2025-12-06 18:37:10+00:00,850.0,b8821498,139.7,10879.0,1643.7,,75.9,153.4,178,VirtualRide
+16680138248,Zwift - Bon Voyage in France,27881.1,3661.0,VirtualRide,7.616,2025-12-07 22:28:37+00:00,149.0,b8821498,110.8,4904.0,533.1,,73.6,145.6,155,VirtualRide
+16698699051,Zwift - Rolling Highlands in Scotland,17744.3,2467.0,VirtualRide,7.193,2025-12-09 22:28:04+00:00,131.0,b8821498,108.5,3047.0,335.0,,63.2,135.8,152,VirtualRide
+16708521378,Zwift - Hot Laps in Watopia,24327.4,2674.0,VirtualRide,9.098,2025-12-10 22:58:03+00:00,150.0,b8821498,143.8,2773.0,584.7,,81.0,218.7,234,VirtualRide
+16709115644,Zwift - Going Coastal in Watopia,34205.2,5147.0,VirtualRide,6.646,2025-12-10 23:48:01+00:00,183.0,b8821498,118.0,5612.0,681.5,,73.5,132.4,144,VirtualRide
+16718653967,Zwift - Grin And Bear It on Greater London Flat in London,32318.9,4085.0,VirtualRide,7.912,2025-12-12 01:28:10+00:00,135.0,b8821498,128.6,4085.0,663.2,,76.1,162.4,192,VirtualRide
+16726325610,23 miles.  This was easier when the kids were younger . Happy bday livi,37118.5,4128.0,VirtualRide,8.992,2025-12-12 23:12:42+00:00,161.0,b8821498,130.6,4154.0,823.3,,77.8,199.4,210,VirtualRide
+16726572105,Zwift - Toefield Tornado in New York,11651.0,1769.0,VirtualRide,6.586,2025-12-13 00:28:28+00:00,59.0,b8821498,100.7,1867.0,191.2,,70.6,108.1,138,VirtualRide
+16735627030,Zwift - I need better friends!,38895.7,4331.0,VirtualRide,8.981,2025-12-13 23:03:11+00:00,129.0,b8821498,152.3,4331.0,898.3,,69.0,207.4,221,VirtualRide
+16735866601,Zwift - Volcano Circuit CCW in Watopia,8169.9,1587.0,VirtualRide,5.148,2025-12-14 00:21:52+00:00,38.0,b8821498,106.4,2137.0,116.8,,61.7,73.6,81,VirtualRide
+16743915598,Zwift - Loopin Lava in Watopia,19464.0,2619.0,VirtualRide,7.432,2025-12-14 19:35:16+00:00,220.0,b8821498,126.4,2659.0,421.7,,72.8,161.0,197,VirtualRide
+16744613583,Zwift - Climb Portal: Col du Platzerwasel at 100% Elevation in France,19525.2,4251.0,VirtualRide,4.593,2025-12-14 20:22:14+00:00,641.0,b8821498,132.1,7815.0,771.3,,73.9,181.4,198,VirtualRide
+16763867583,Zwift -i need better friends! 6x2 VO2 Max on Tempus Fugit in Watopia,34352.7,3758.0,VirtualRide,9.141,2025-12-17 01:52:00+00:00,53.0,b8821498,132.2,3758.0,743.9,,71.3,197.9,227,VirtualRide
+16763940970,Zwift - Volcano Circuit in Watopia,8170.0,1103.0,VirtualRide,7.407,2025-12-17 02:59:10+00:00,39.0,b8821498,109.3,1103.0,141.5,,68.8,128.3,148,VirtualRide

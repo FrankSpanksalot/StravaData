@@ -1,0 +1,16 @@
+Date,Bike,Category,Item,Cost,Notes
+2014-01-15,b1683032,Bike,bike,2250,New bike
+2025-10-20,b15051171,NewBike,bike,9000, New bike
+20218-10-20,b8821498,NewBike,bike,850, New trainer
+2025-02-02,b15721392,NewBike,bike,4950, New  bike
+2025-06-13,b15051171,NewTires,tires,100, new tires
+
+id,name,brand_name,model_name
+b1683032,special ed,Specialized,TriCross
+g3714779,Action Zero zero,Action,Zero
+g1453101,New Balance zero rise red uglies,New Balance,zero rise
+b5274657,Kelli Pelli,Peloton,Peloton
+b8821498,blue betty ball buster,Trek,1420
+b13255834, green machine,Diamonback,Apex
+b15051171,Tarmac Tammi,Specialized,Tarmac
+b15721392,Helga Seigla,Lauf,Seigla
